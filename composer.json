@@ -1,0 +1,26 @@
+{
+    "name": "Wiki_418",
+    "description": "Wiki_418 BC project",
+    "type": "project",
+    "require-dev": {
+        "symfony/var-dumper": "^3.3",
+        "phpunit/phpunit": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "Wiki_418 dev team",
+            "email": "your.mother@is.fat"
+        }
+    ],
+    "require": {
+        "symfony/routing": "^3.3",
+        "symfony/dependency-injection": "^3.3",
+        "nikic/fast-route": "^1.2",
+        "twig/twig": "^2.4",
+        "catfan/Medoo": "^1.4",
+        "twig/extensions": "^1.5"
+    },
+    "autoload": {
+        "psr-4": { "Wiki_418\\": "app/" }
+    }
+}
